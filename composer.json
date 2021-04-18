@@ -1,0 +1,27 @@
+{
+  "name": "magebuddy/reindexfromadmin",
+  "description": "Reindex From Admin",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+        "php": "~7.1.0|~7.1.3|~7.2.0|~7.3.0|~7.4.0"
+  },
+  "authors": [
+    {
+      "name": "magebuddy",
+      "email": "info.magebuddy@gmail.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magebuddy\\ReindexFromAdmin\\": ""
+    }
+  }
+}
